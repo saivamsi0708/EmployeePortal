@@ -7,7 +7,11 @@
 /EmployeePortal/.vs/EmployeePortal/DesignTimeBuild/.dtbcache.v2
 /EmployeePortal/bin
 /EmployeePortal/obj
-/bin
-/obj
-bin/*
-obj/*
+# Ignore all bin and obj directories
+**/bin/
+**/obj/
+
+# Ignore Visual Studio-specific files
+*.vsidx
+*.dtbcache.v2
+.vs/
